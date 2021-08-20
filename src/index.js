@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import NominallRoll from './NominalRoll';
 
 ReactDOM.render(
   <React.StrictMode>
+    
+    <NominallRoll />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

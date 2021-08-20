@@ -1,0 +1,123 @@
+.Content{
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+}
+body {
+    background: rgb(251, 251, 251);
+    font-family: "muli";
+    color: rgba(74, 74, 74, 0.8);
+  }
+  fieldset {
+    padding:20px ;
+    border:1px solid rgb(199, 199, 199) !important;
+    border-radius:8px !important;
+    box-shadow:0 0 5px rgb(199, 199, 199) !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  text-align:justify !important;
+  height: 100%;
+  }
+ legend {
+     width: fit-content;
+    background-color:#f87d67 !important;
+  color:#ffffff !important;
+    margin-top:0 auto 0 !important;
+   border:1px solid rgb(199, 198, 198) !important;
+    border-radius:8px !important;
+  text-align:start !important;
+  padding:5px 20px 5px 20px !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  font-size: medium;
+  margin:0px 0px 0px 0px;
+  }
+.selectbox
+{
+   width: 150px !important;
+   margin-right: 10px;
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding:5px !important
+}
+.row{
+  margin-left: -0px;
+  margin-right: -0px;
+}
+th{
+  color: #f16b57;
+  text-align: center;
+}
+td{
+  font-weight: 500;
+}
+table{
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+.tableHeader{
+  color: #000000;
+  background-color: #ffedcc;
+}
+.tableCell
+{
+  padding: 10px;
+  text-align: center;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #ffffff;
+  border-color: #f05c5c;
+  color: #000000;
+}
+//Table
+.table-responsive-stack tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+
+.table-responsive-stack td,
+.table-responsive-stack th {
+   display:block;
+/*      
+   flex-grow | flex-shrink | flex-basis   */
+   -ms-flex: 1 1 auto;
+   width: 100%;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.table-responsive-stack .table-responsive-stack-thead {
+   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+   .table-responsive-stack tr {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      border-bottom: 3px solid #ccc;
+      display:block;
+      
+   }
+   /*  IE9 FIX   */
+   .table-responsive-stack td {
+      float: left\9;
+      width:100%;
+   }
+}
